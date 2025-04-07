@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/change.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&display=swap" rel="stylesheet">
+    <title>Test change</title>
+
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="screen">
+
+
+            <div class="pos">
+
+                <div id="x" class="position">
+                    x: <a id="xposition"> 0</a>
+                </div>
+
+                <div id="y" class="position">
+                    y: <a id="yposition"> 0</a>
+                </div>
+
+                <select class="dropdown">
+                    <option value="none">-</option>
+                    <option value="a">space</option>
+                    <option value="b">block 1</option>
+                    <option value="j">block 2</option>
+                    <option value="c">painting</option>
+                    <option value="d">tile</option>
+                    <option value="e">parquet</option>
+                    <option value="f">sand</option>
+                    <option value="g">door1</option>
+                    <option value="i">door2</option>
+
+                </select>
+
+
+            </div>
+            <div class="buttons">
+
+                <div class="button" id="global_save" onclick="globalSave()">
+                    download
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="maps">
+                <div class="button" onclick="mapTake()">house</div>
+
+            </div>
+
+
+
+
+        </div>
+        <div class="map" id="map">
+            <div class="layer_1" id="layer_1"></div>
+            <div class="layer_2" id="layer_2"></div>
+        </div>
+
+        </div>
+    </main>
+    <footer>
+        <script src="/js/script.js"></script>
+    </footer>
+
+
+</body>
+
+</html>
