@@ -174,7 +174,7 @@ function checkNeighbors() {
 
 
 function mapTake() {
-    fetch('../maps/house.html')
+    fetch('/block182/maps/house.html')
         .then(res => res.text())
         .then(html => {
             const layer = document.getElementById('layer_1');

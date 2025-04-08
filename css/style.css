@@ -211,15 +211,15 @@ main {
 
 
 
-.a {background-image:url(../obj/blocks/0.png) ;}
-.b {background-image:url(../obj/blocks/1.png) ;}
-.c {background-image:url(../obj/blocks/2.png) ;}
-.d {background-image:url(../obj/blocks/3.png) ;}
-.e {background-image:url(../obj/blocks/4.png) ;}
-.f {background-image:url(../obj/blocks/6.png) ;}
-.g {background-image:url(../obj/blocks/7.png) ;}
-.i {background-image:url(../obj/blocks/8.png) ;}
-.j {background-image:url(../obj/blocks/5.png) ;}
+.a {background-image:url(/block182/obj/blocks/0.png) ;}
+.b {background-image:url(/block182/obj/blocks/1.png) ;}
+.c {background-image:url(/block182/obj/blocks/2.png) ;}
+.d {background-image:url(/block182/obj/blocks/3.png) ;}
+.e {background-image:url(/block182/obj/blocks/4.png) ;}
+.f {background-image:url(/block182/obj/blocks/6.png) ;}
+.g {background-image:url(/block182/obj/blocks/7.png) ;}
+.i {background-image:url(/block182/obj/blocks/8.png) ;}
+.j {background-image:url(/block182/obj/blocks/5.png) ;}
 
 
 .block.line1 { border-left: 4px solid rgb(0, 0, 0); }
